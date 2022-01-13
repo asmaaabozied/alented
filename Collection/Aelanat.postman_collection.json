@@ -1,0 +1,1433 @@
+{
+	"info": {
+		"_postman_id": "a197c860-68e5-4e50-b8a5-08c7d32d1bdf",
+		"name": "Aelanat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categories API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/categories",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regions API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/regions",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"regions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Social Media Links API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-language",
+						"value": "ar",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/social_links",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"social_links"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "About us API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/about",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"about"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Privecy Policy API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/privecy_policy",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"privecy_policy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Our Mission API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/our_mission",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"our_mission"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Slider API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/sliders",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"sliders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Packages API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/packages",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"packages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "mahmoud",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mahmoud@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "12345678",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "+201145033268",
+							"type": "text"
+						},
+						{
+							"key": "firebase_token",
+							"value": "sfdagaefgefqbegfdabebgerdabgerw",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/register",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "mahmoud@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/login",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Profile API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNTM2NTQ3ZmVhNDU0ZDE2NTA0OWZjOWUxMjhkYjZlOWIyMTY4OWY5ZjUwMThmN2M1NDM4NjA3YjY1Yjc2MDVlOGJjYTY1ZGY4OGFkMzMxMDQiLCJpYXQiOjE1OTgzNjQyMzksIm5iZiI6MTU5ODM2NDIzOSwiZXhwIjoxNjI5OTAwMjM5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.jTsVB6vdzVPBxYADBQydR1ZGVITlWltKjZU8eFpRO2GmhO5WY6jokbLdeHLBmKnKnkpTAWJ4LDFO_hE5UGP8gg7bi4ABnfGh_vTlEwOxjV3v9zeI7X_79QP3_sjqkCVevfZxkbwK8736oF_ap4JcRor2t84dbsMpyZTbK696IAry-XAUxqIOomShc0adj68cut4MlqtodX2aOGBhJutwfwq66ZBSLxEbV0AmW8OXCRXSl1M2R5rwS1FVjBILPVWyMemg4GXCIWrDBONI35up0NWhkD_5HGkZxZHP7AsXU_QQsOLsPGnbOYvCvO6-wVS_b5XgU6tvOAGzXXiFbHcuKqjUb1Srr1hTlCo8ES_HbnP6ObHRKszNWqfdWr2TaudVO38Gp0rS4C6yx2P6NJ1BJ3HBFAKcuNgL5wqh1RUkP3-_38GUzwK6a-N_KJD42j-qZBHyt_3jFkDfiNZNgyyyYSnOQQP3b5O9M7i6ZOUlkx8uLUv5RCEyKjbgevr41ZAlK3F0tUpRHVsjnLaIE2-ob_v_VqO9oRsRIIQyz63ZTHNK0HfDAx0CE_KKHyjYkyojRyQC8mZ5mk2RsrIBbUH0jXyW6S4WSVEhGNJwadiRqkITlSf4NLQcSwG-WWy6-fPYkI8rA_dT72EWyn6Y5n7d_Pyv4eBcK9hkXai0v-kBv28",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Mahmoud Bakr/Downloads/117595146_3617639888298454_7394840375303922615_n.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/edit_profile",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"edit_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Client Data with Token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzU0MWMzNDgzM2Q5YWZlZTVlMDY4MGQ1MjdlMDg4YzM5N2ZhZDM0OTcwNzg1YmFlZWVkOTZiZTAxYWUxMzZjMGQ5MDgxOTE2MDZjMjg4YTkiLCJpYXQiOjE1OTk3MzYwMDAsIm5iZiI6MTU5OTczNjAwMCwiZXhwIjoxNjMxMjcyMDAwLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.fzLQmQTtFmbtQ1Fuz0vSf9ZYq9SkNxHN8Rc_AktBVtt8cVjdFTTqMvaZNRDBe6XUchf7tDFoBbqBt7LC5zx8ilDH6xqVgDsfHi0xmQ-YLwDiExHLb3J41PqwsvTAiLbwqn0oBPUdRcSU-pUE7aeU7Ni2cpt7a9G-6hZ3BgSUIlQwkAsmJD2bo2J9tvjsjaPJI5gejoCUYx19xDmHAU_0xLs47CYqonXj3LkiWKDInC6Gfb755JYek61poGqtxUi01VOqhQYZXTwtUvf3X6o38G-GC6-QwSTRkpJCx16YkxIFLcn4T55x7FTlxo42y-ztBrd_VsONhvORs5HtjeEMxMZPKU_9inHBKkwwc1Dpeul9DJligO6w2XW0hHKzgHIyGOa0jSJ2MlBNE4AjaCL1R8mMMJlufSRIzwdSNjAl9HEQICwUPQRMPctsGwIhbd_PBxBuxCtMYHWHEuU1rwfGX7pHdnX5TGDnms3Qo5DyPobpLHXNrEtJdMsohrvoqU7ktesPLwj-D2wEOu_Ua2vHL-3mNb3jvyI7fKlOnNNpEMgk5wpBHFD0ZfgFt1gWSWKxuKLo9flgNNk8JEtRMg_0GG2SpZZ298WjO1W9JSaxah5LZg1h0PcZjaLudbVIiSTX1K0dFOLvRgmpyT9o2aEww8ilElRXJe6N1qOebDrK5vU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Verfication Code",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone_number",
+							"value": "+201145033268",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/send_code",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"send_code"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Verfication Code",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "49325",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/check_code",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"check_code"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNTM2NTQ3ZmVhNDU0ZDE2NTA0OWZjOWUxMjhkYjZlOWIyMTY4OWY5ZjUwMThmN2M1NDM4NjA3YjY1Yjc2MDVlOGJjYTY1ZGY4OGFkMzMxMDQiLCJpYXQiOjE1OTgzNjQyMzksIm5iZiI6MTU5ODM2NDIzOSwiZXhwIjoxNjI5OTAwMjM5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.jTsVB6vdzVPBxYADBQydR1ZGVITlWltKjZU8eFpRO2GmhO5WY6jokbLdeHLBmKnKnkpTAWJ4LDFO_hE5UGP8gg7bi4ABnfGh_vTlEwOxjV3v9zeI7X_79QP3_sjqkCVevfZxkbwK8736oF_ap4JcRor2t84dbsMpyZTbK696IAry-XAUxqIOomShc0adj68cut4MlqtodX2aOGBhJutwfwq66ZBSLxEbV0AmW8OXCRXSl1M2R5rwS1FVjBILPVWyMemg4GXCIWrDBONI35up0NWhkD_5HGkZxZHP7AsXU_QQsOLsPGnbOYvCvO6-wVS_b5XgU6tvOAGzXXiFbHcuKqjUb1Srr1hTlCo8ES_HbnP6ObHRKszNWqfdWr2TaudVO38Gp0rS4C6yx2P6NJ1BJ3HBFAKcuNgL5wqh1RUkP3-_38GUzwK6a-N_KJD42j-qZBHyt_3jFkDfiNZNgyyyYSnOQQP3b5O9M7i6ZOUlkx8uLUv5RCEyKjbgevr41ZAlK3F0tUpRHVsjnLaIE2-ob_v_VqO9oRsRIIQyz63ZTHNK0HfDAx0CE_KKHyjYkyojRyQC8mZ5mk2RsrIBbUH0jXyW6S4WSVEhGNJwadiRqkITlSf4NLQcSwG-WWy6-fPYkI8rA_dT72EWyn6Y5n7d_Pyv4eBcK9hkXai0v-kBv28",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/logout",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Social login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "social_login",
+							"value": "google || twitter",
+							"type": "text"
+						},
+						{
+							"key": "google_id",
+							"value": "send if login with google",
+							"type": "text"
+						},
+						{
+							"key": "twitter_id",
+							"value": "send if login with twitter",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "firebase_key",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/social_login",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"social_login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forget Password API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "49325",
+							"type": "text"
+						},
+						{
+							"key": "new_password",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "confirm_new_password",
+							"value": "123456789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/forget_password",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"forget_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Changed Password API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYThiMjY1YmExZWU5Mjk0ZmY3ZjFkYmZjNTljMjQxNWM2NjM2MTgzZGM1ODk4YzgyMDc1Y2UxNTlmMzllMmFhM2MzZWJhYjE5ZjUyZDA0MzQiLCJpYXQiOjE1OTg0Mjc4OTcsIm5iZiI6MTU5ODQyNzg5NywiZXhwIjoxNjI5OTYzODk3LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.HB8SorlUNPoeEr4ftcnDpBcrrzba2dq9Ved1T-B70DFsjr_siEZBIBzUPsBEWrDJ-ulb96Ibu-7ZM6vWscxjfvI4XgA7MLA5jbbiHrn2BlQUnrg8OBQlMv6TktVsw2MGnRdjuizHBFvdwx5Bt7sLXLCQjTYn6VgQpzw7ylZIQxcCTtsw7s7Ezb7EbfQsLOZA0_pWKRrVnMmHNM5TF0whn-QBbcZpVFjw_aJsECtPgNNPJs1qwsD_pjRMtNG0pvYNHIU_XZYAgKZqXKDa4XdGEDahx3PyFwM3p-n0pptdWF_VtWTklq5JmkplkIDUs_MHcHNIIt8x82a-_EqCAe7qSmDT5pxNEOEMbDE4nl_-QUnosDkgsJ5uGXpHiPTyRu-sEKhaa8pHwG5lnyvw-e-mcVI2LCBbFHEsI-1BePnRYlfsNa5quSPhaFB8nDa_KV7-E25_9uI2JCNGGQkD3GinxoFytyX6NDoVy5QpR-sCbwxO1JXP7kpsmJA5xxIu1foTi6Gk1SSVbQ0ua9Drj0UcQgQm4WK5RkDb30t0Cj3QbpQ34bp9wkAReamOx8p7KH8Xz_hKz7UYn0RRR9JQnrKDyp59yDYJ0VNGwMkYkfCz1BxbMjiyDi4xUTNIa_SYGON0uffSrdKda78u3G2A7vTcLdDVcEew1qeL3EOTCCJPg8w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "current_password",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "new_password",
+							"value": "12345678",
+							"type": "text"
+						},
+						{
+							"key": "new_password_confirmation",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/clients/change_password",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"clients",
+						"change_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "News API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/news",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Client Add Ad API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiODI3YWRhNWZlODAxYWQ1MzEwNThhMmU5Nzc1OTI1Y2QyZmVjYmJjMjEwNTQwODg0OGJmYmMyZGVhYWRlNWNhNzgzZjI5NjMzODM1NDM3OWQiLCJpYXQiOjE1OTg0NDg5ODMsIm5iZiI6MTU5ODQ0ODk4MywiZXhwIjoxNjI5OTg0OTgzLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.iXStbI_HO5ufDJD65X6cQBbA5QcmByqAMtSrHANLpGUIk-QI2bFYsltmMTl4r8xUGsg6IxqYWPQiQnhgEoj62NCDP2P_79P8VNCIkQhoFiHvgr-wJT4hQrz6RmlBRQZo2g6YXbdxQV9Y1CXZMnKvD5ptDgiAXdyx51pc1iAOo03wK72qgibv63cNUbhaf0kbs05hjFR5_L33-AoYajsA3P3FpY4B_t9q08vLKjqn4WWO2PqxqS5dKOkcdWAlIktbGPdTms3MMgpvpiAz0kfs2fZ_VIWeu1jhbYRfZvI9oIT92Inz8ZC9ZCi9C95vgyrAuqwNbgMxPO_8tYCSPR57KUA-TniweJJwr9R4RiZHTGaoSn5_4uzR64O1DcBqe_wNvte0YjxgNmOLSS8bVI6epKbaXVZ2m8w_S42JoDZR_Nl3wGlQ4DIc2kNjtq4ZZcbeQ9201hfTvPX__Wcs3hBaIUqugANMh9QDQ6ReV8LVBe6bv49Lo1PVk_vEltE0flpdGAqEMU9wyMeB5T5xlXQmPjOxrSbzXhz_l2o494u1EGlFluhILKEi4MSJlDtrQTiNCMsK5FS4WVtXzxteXTdvAz4B1oI7kr01FMQuVsQcbbQ6wNST-BlrvmQ4S-dnBVJENfgL64devw5HIYkvZ-rzdUAEGfLkrpuja1FEsakUL7Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title_en",
+							"value": "My First Ad",
+							"type": "text"
+						},
+						{
+							"key": "title_ar",
+							"value": "أول إعلان ليا",
+							"type": "text"
+						},
+						{
+							"key": "description_en",
+							"value": "This is my First Ad",
+							"type": "text"
+						},
+						{
+							"key": "description_ar",
+							"value": "هذا هو الاعلان الأول لى",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "url",
+							"value": "https://app.zeplin.io/project/5f421e63f2ba473096e0b95e/dashboard?sid=5f4225f33a4cd32bdcbf8d94",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Mahmoud Bakr/Downloads/5cfeca47bfbac.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/add_ad",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"add_ad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Client Edit Ad API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiODI3YWRhNWZlODAxYWQ1MzEwNThhMmU5Nzc1OTI1Y2QyZmVjYmJjMjEwNTQwODg0OGJmYmMyZGVhYWRlNWNhNzgzZjI5NjMzODM1NDM3OWQiLCJpYXQiOjE1OTg0NDg5ODMsIm5iZiI6MTU5ODQ0ODk4MywiZXhwIjoxNjI5OTg0OTgzLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.iXStbI_HO5ufDJD65X6cQBbA5QcmByqAMtSrHANLpGUIk-QI2bFYsltmMTl4r8xUGsg6IxqYWPQiQnhgEoj62NCDP2P_79P8VNCIkQhoFiHvgr-wJT4hQrz6RmlBRQZo2g6YXbdxQV9Y1CXZMnKvD5ptDgiAXdyx51pc1iAOo03wK72qgibv63cNUbhaf0kbs05hjFR5_L33-AoYajsA3P3FpY4B_t9q08vLKjqn4WWO2PqxqS5dKOkcdWAlIktbGPdTms3MMgpvpiAz0kfs2fZ_VIWeu1jhbYRfZvI9oIT92Inz8ZC9ZCi9C95vgyrAuqwNbgMxPO_8tYCSPR57KUA-TniweJJwr9R4RiZHTGaoSn5_4uzR64O1DcBqe_wNvte0YjxgNmOLSS8bVI6epKbaXVZ2m8w_S42JoDZR_Nl3wGlQ4DIc2kNjtq4ZZcbeQ9201hfTvPX__Wcs3hBaIUqugANMh9QDQ6ReV8LVBe6bv49Lo1PVk_vEltE0flpdGAqEMU9wyMeB5T5xlXQmPjOxrSbzXhz_l2o494u1EGlFluhILKEi4MSJlDtrQTiNCMsK5FS4WVtXzxteXTdvAz4B1oI7kr01FMQuVsQcbbQ6wNST-BlrvmQ4S-dnBVJENfgL64devw5HIYkvZ-rzdUAEGfLkrpuja1FEsakUL7Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title_en",
+							"value": "My First Ads",
+							"type": "text"
+						},
+						{
+							"key": "title_ar",
+							"value": "أول إعلان ليا",
+							"type": "text"
+						},
+						{
+							"key": "description_en",
+							"value": "This is my First Ads",
+							"type": "text"
+						},
+						{
+							"key": "description_ar",
+							"value": "هذا هو الاعلان الأول لى",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "url",
+							"value": "https://app.zeplin.io/",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/edit_ad/2",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"edit_ad",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Ads API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiODI3YWRhNWZlODAxYWQ1MzEwNThhMmU5Nzc1OTI1Y2QyZmVjYmJjMjEwNTQwODg0OGJmYmMyZGVhYWRlNWNhNzgzZjI5NjMzODM1NDM3OWQiLCJpYXQiOjE1OTg0NDg5ODMsIm5iZiI6MTU5ODQ0ODk4MywiZXhwIjoxNjI5OTg0OTgzLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.iXStbI_HO5ufDJD65X6cQBbA5QcmByqAMtSrHANLpGUIk-QI2bFYsltmMTl4r8xUGsg6IxqYWPQiQnhgEoj62NCDP2P_79P8VNCIkQhoFiHvgr-wJT4hQrz6RmlBRQZo2g6YXbdxQV9Y1CXZMnKvD5ptDgiAXdyx51pc1iAOo03wK72qgibv63cNUbhaf0kbs05hjFR5_L33-AoYajsA3P3FpY4B_t9q08vLKjqn4WWO2PqxqS5dKOkcdWAlIktbGPdTms3MMgpvpiAz0kfs2fZ_VIWeu1jhbYRfZvI9oIT92Inz8ZC9ZCi9C95vgyrAuqwNbgMxPO_8tYCSPR57KUA-TniweJJwr9R4RiZHTGaoSn5_4uzR64O1DcBqe_wNvte0YjxgNmOLSS8bVI6epKbaXVZ2m8w_S42JoDZR_Nl3wGlQ4DIc2kNjtq4ZZcbeQ9201hfTvPX__Wcs3hBaIUqugANMh9QDQ6ReV8LVBe6bv49Lo1PVk_vEltE0flpdGAqEMU9wyMeB5T5xlXQmPjOxrSbzXhz_l2o494u1EGlFluhILKEi4MSJlDtrQTiNCMsK5FS4WVtXzxteXTdvAz4B1oI7kr01FMQuVsQcbbQ6wNST-BlrvmQ4S-dnBVJENfgL64devw5HIYkvZ-rzdUAEGfLkrpuja1FEsakUL7Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "status",
+							"value": "1 => new || 2 => proccessing || 3 => Accepted || 4 => Rejected",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "region_id",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/ads/owner",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"ads",
+						"owner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Ads API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "sort_by",
+							"value": "created_at",
+							"type": "text"
+						},
+						{
+							"key": "sort_type",
+							"value": "asc",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "1 => تجارى || 2 => حكومى",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/ads",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"ads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ad Data API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/ad/1",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"ad",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Terms & Conditions API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/terms_conditions",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"terms_conditions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contact Information API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/informative/contact",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"informative",
+						"contact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contact Us API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bakr@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "0112343545656",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "mahmoud",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "hello world",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/contactuses",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"contactuses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Categories API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/categories/all",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"categories",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Previous Ads API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZmRjNzUxMmY1ODljYzUyODdiNDU2ODQ4YTYwZThmY2IyMjZkYWNjYjFhMDBjODA5YWRkNDQ2MTQ4OTBkNDI4MDNhMGEwMGM2YWQ5OTBjYWIiLCJpYXQiOjE1OTk3MjMzNDcsIm5iZiI6MTU5OTcyMzM0NywiZXhwIjoxNjMxMjU5MzQ3LCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.RGEBq5-h3d1scL9RMcHEywQe2B0WnlLkzu3U59ZodmU6xRS598LSOEJQCp60NurE_m9rlwRN95arDIq2TZ1pvtYxqtMcWjuszSfWa-Qg7DJv9RByk51U2crseTDJUASkUCCi_7rKWyaVWqwH6XJ3r3QuHa8ZTiqUu_LsCwqBuWCN37_JPzX544I4mnBUnOhJiq27VMGPrIUffqgmwKufDWkH3fZ4aJvjQ0jMUu_5v4OHpcREjj_uQqThZsS9IDyUP695vv3IC4vzoPzkhDODujvqSI7ldKAfeyLFCUYsOOr1f_S6CGl9NEA_ew7_CWDSVDkkDyRJtekigJ5BIQ-D2MmVfCsxj0lLFdNeqciFAff7f9HrmF1wK9GNoXlAToBGRqIcdM87H7T-9Hlm7UuTBE_AXKSSZMRZz5e3g9J_84dbN7_yp_DW63F6tz3XOWgXThgNXH2asz94np9w_3XxbJ-O9zBDlf50bw-qSiJjhyQ3XtkTg8Ly-c_RkJaTObZNVayAun2roxQfextMtQWxltNv0sGNqJaBFOmp9xhhODjorMrmHFhovoXrQ8AOReK1Etb2nIebDUn9p-hy8e4uLIDNNXoHTa5ccdO7-Kfy5LWrKvY80Tu4-LAmsLqo0Cc6n4Lyqv6jVcFM6jMGOV8zkOrySDnCM6_krMnxPuuZYIc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/ads/owner/previous",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"ads",
+						"owner",
+						"previous"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Current Ads API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZmRjNzUxMmY1ODljYzUyODdiNDU2ODQ4YTYwZThmY2IyMjZkYWNjYjFhMDBjODA5YWRkNDQ2MTQ4OTBkNDI4MDNhMGEwMGM2YWQ5OTBjYWIiLCJpYXQiOjE1OTk3MjMzNDcsIm5iZiI6MTU5OTcyMzM0NywiZXhwIjoxNjMxMjU5MzQ3LCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.RGEBq5-h3d1scL9RMcHEywQe2B0WnlLkzu3U59ZodmU6xRS598LSOEJQCp60NurE_m9rlwRN95arDIq2TZ1pvtYxqtMcWjuszSfWa-Qg7DJv9RByk51U2crseTDJUASkUCCi_7rKWyaVWqwH6XJ3r3QuHa8ZTiqUu_LsCwqBuWCN37_JPzX544I4mnBUnOhJiq27VMGPrIUffqgmwKufDWkH3fZ4aJvjQ0jMUu_5v4OHpcREjj_uQqThZsS9IDyUP695vv3IC4vzoPzkhDODujvqSI7ldKAfeyLFCUYsOOr1f_S6CGl9NEA_ew7_CWDSVDkkDyRJtekigJ5BIQ-D2MmVfCsxj0lLFdNeqciFAff7f9HrmF1wK9GNoXlAToBGRqIcdM87H7T-9Hlm7UuTBE_AXKSSZMRZz5e3g9J_84dbN7_yp_DW63F6tz3XOWgXThgNXH2asz94np9w_3XxbJ-O9zBDlf50bw-qSiJjhyQ3XtkTg8Ly-c_RkJaTObZNVayAun2roxQfextMtQWxltNv0sGNqJaBFOmp9xhhODjorMrmHFhovoXrQ8AOReK1Etb2nIebDUn9p-hy8e4uLIDNNXoHTa5ccdO7-Kfy5LWrKvY80Tu4-LAmsLqo0Cc6n4Lyqv6jVcFM6jMGOV8zkOrySDnCM6_krMnxPuuZYIc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/ads/owner/current",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"ads",
+						"owner",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Package Subscription API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzU0MWMzNDgzM2Q5YWZlZTVlMDY4MGQ1MjdlMDg4YzM5N2ZhZDM0OTcwNzg1YmFlZWVkOTZiZTAxYWUxMzZjMGQ5MDgxOTE2MDZjMjg4YTkiLCJpYXQiOjE1OTk3MzYwMDAsIm5iZiI6MTU5OTczNjAwMCwiZXhwIjoxNjMxMjcyMDAwLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.fzLQmQTtFmbtQ1Fuz0vSf9ZYq9SkNxHN8Rc_AktBVtt8cVjdFTTqMvaZNRDBe6XUchf7tDFoBbqBt7LC5zx8ilDH6xqVgDsfHi0xmQ-YLwDiExHLb3J41PqwsvTAiLbwqn0oBPUdRcSU-pUE7aeU7Ni2cpt7a9G-6hZ3BgSUIlQwkAsmJD2bo2J9tvjsjaPJI5gejoCUYx19xDmHAU_0xLs47CYqonXj3LkiWKDInC6Gfb755JYek61poGqtxUi01VOqhQYZXTwtUvf3X6o38G-GC6-QwSTRkpJCx16YkxIFLcn4T55x7FTlxo42y-ztBrd_VsONhvORs5HtjeEMxMZPKU_9inHBKkwwc1Dpeul9DJligO6w2XW0hHKzgHIyGOa0jSJ2MlBNE4AjaCL1R8mMMJlufSRIzwdSNjAl9HEQICwUPQRMPctsGwIhbd_PBxBuxCtMYHWHEuU1rwfGX7pHdnX5TGDnms3Qo5DyPobpLHXNrEtJdMsohrvoqU7ktesPLwj-D2wEOu_Ua2vHL-3mNb3jvyI7fKlOnNNpEMgk5wpBHFD0ZfgFt1gWSWKxuKLo9flgNNk8JEtRMg_0GG2SpZZ298WjO1W9JSaxah5LZg1h0PcZjaLudbVIiSTX1K0dFOLvRgmpyT9o2aEww8ilElRXJe6N1qOebDrK5vU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "package_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/packages/subscribe",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"packages",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Ad API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzU0MWMzNDgzM2Q5YWZlZTVlMDY4MGQ1MjdlMDg4YzM5N2ZhZDM0OTcwNzg1YmFlZWVkOTZiZTAxYWUxMzZjMGQ5MDgxOTE2MDZjMjg4YTkiLCJpYXQiOjE1OTk3MzYwMDAsIm5iZiI6MTU5OTczNjAwMCwiZXhwIjoxNjMxMjcyMDAwLCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.fzLQmQTtFmbtQ1Fuz0vSf9ZYq9SkNxHN8Rc_AktBVtt8cVjdFTTqMvaZNRDBe6XUchf7tDFoBbqBt7LC5zx8ilDH6xqVgDsfHi0xmQ-YLwDiExHLb3J41PqwsvTAiLbwqn0oBPUdRcSU-pUE7aeU7Ni2cpt7a9G-6hZ3BgSUIlQwkAsmJD2bo2J9tvjsjaPJI5gejoCUYx19xDmHAU_0xLs47CYqonXj3LkiWKDInC6Gfb755JYek61poGqtxUi01VOqhQYZXTwtUvf3X6o38G-GC6-QwSTRkpJCx16YkxIFLcn4T55x7FTlxo42y-ztBrd_VsONhvORs5HtjeEMxMZPKU_9inHBKkwwc1Dpeul9DJligO6w2XW0hHKzgHIyGOa0jSJ2MlBNE4AjaCL1R8mMMJlufSRIzwdSNjAl9HEQICwUPQRMPctsGwIhbd_PBxBuxCtMYHWHEuU1rwfGX7pHdnX5TGDnms3Qo5DyPobpLHXNrEtJdMsohrvoqU7ktesPLwj-D2wEOu_Ua2vHL-3mNb3jvyI7fKlOnNNpEMgk5wpBHFD0ZfgFt1gWSWKxuKLo9flgNNk8JEtRMg_0GG2SpZZ298WjO1W9JSaxah5LZg1h0PcZjaLudbVIiSTX1K0dFOLvRgmpyT9o2aEww8ilElRXJe6N1qOebDrK5vU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/client/delete_ad/1",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"client",
+						"delete_ad",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Ads PDF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/all_pdf",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"all_pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Site Ads API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/site_ads",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"site_ads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Payment Order API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMWZiNjlkZmUyMDY4ZGQ3NmFiYzVkNDE1NmQ3ODRjYjhmY2U3OTE1Y2ZlMzdkYWNiMjI5NjBlZWU3OWFmZThjN2YwMjE4Y2Q1NTRjY2I0NjgiLCJpYXQiOjE1OTk5ODI0MjIsIm5iZiI6MTU5OTk4MjQyMiwiZXhwIjoxNjMxNTE4NDIyLCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.WLT77-A9yH9q2we2uuS1yh2OupNl2Jl_iyr5iKUor6vgI0AX3jv4J2OE0hWlGpom0biiCUkQfNovzY_vEzn2wFnZ2_-dEcKtnR-CjHIt4PketlR1zbmwl4mLE58tvBpZJm2IzIecKm9di_DlEy0ZxrszER9JiKQp2O8QSuqQKn9zQ_fJrjmjNAiMdMDYgTaZFjwU-NaqjmCWAuXSvShFQk_XEQwVDv5eLxUfx_LxNkBbxUDh35bAWij84an5XIJVAgHp8vTOkO0NDsOpxD6CAJXVwzBXXvu383KQJoc2vTXss_YD8ZEOJnb5XF6RZD0wtJo8E1oceaPG3bKB6uhZJZCapJihNHqREd2EZbwvSpCPWTOyX28d1KmO52iyVoolrpMfzmJV-tqhGmDDMIrZrzwjA-6r0WPWDzDUXc4pe3I42PLG0eUgDdFfAAL1dXvFPBUE--yPHIW8EpfeBcXTj5ffhsO56IYpdJwT4VTKwhocquV3DjPfNOy6Kw_U59UXPc4tP8DDxgujM75CUTdvOfu2y2En9EjkJOKxMAzs3CcDH_rAQcuc8OpBj0LkznytDUky5WrwEreW7QrLPJ3R6lEF4F1UOsyJLcxuwy1K_Fc8xOAEkQLy7V4mOtLzkKQyNLwKj8FMw28eSxnzcvezakGBniKbh-EvmNd30PdSnEo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\":\"SALE\",\"amount\":{\"currencyCode\":\"AED\",\"value\":\"123610\"},\"emailAddress\":\"ramya@upbeat.in\",\"language\":\"fr\",\"merchantOrderReference\":\"deal4deal-121\",\"billingAddress\":{\"firstName\":\"Ramya\",\"lastName\":\"Issac\",\"address1\":\"Afghanistan\",\"city\":\"Afghanistan\",\"countryCode\":\"Afghanistan\"},\"shippingAddress\":{\"firstName\":\"Ramya\",\"lastName\":\"Issac\",\"address1\":\"Afghanistan\",\"city\":\"Afghanistan\",\"countryCode\":\"Afghanistan\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/live_token_order",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"live_token_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Order Status API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMWZiNjlkZmUyMDY4ZGQ3NmFiYzVkNDE1NmQ3ODRjYjhmY2U3OTE1Y2ZlMzdkYWNiMjI5NjBlZWU3OWFmZThjN2YwMjE4Y2Q1NTRjY2I0NjgiLCJpYXQiOjE1OTk5ODI0MjIsIm5iZiI6MTU5OTk4MjQyMiwiZXhwIjoxNjMxNTE4NDIyLCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.WLT77-A9yH9q2we2uuS1yh2OupNl2Jl_iyr5iKUor6vgI0AX3jv4J2OE0hWlGpom0biiCUkQfNovzY_vEzn2wFnZ2_-dEcKtnR-CjHIt4PketlR1zbmwl4mLE58tvBpZJm2IzIecKm9di_DlEy0ZxrszER9JiKQp2O8QSuqQKn9zQ_fJrjmjNAiMdMDYgTaZFjwU-NaqjmCWAuXSvShFQk_XEQwVDv5eLxUfx_LxNkBbxUDh35bAWij84an5XIJVAgHp8vTOkO0NDsOpxD6CAJXVwzBXXvu383KQJoc2vTXss_YD8ZEOJnb5XF6RZD0wtJo8E1oceaPG3bKB6uhZJZCapJihNHqREd2EZbwvSpCPWTOyX28d1KmO52iyVoolrpMfzmJV-tqhGmDDMIrZrzwjA-6r0WPWDzDUXc4pe3I42PLG0eUgDdFfAAL1dXvFPBUE--yPHIW8EpfeBcXTj5ffhsO56IYpdJwT4VTKwhocquV3DjPfNOy6Kw_U59UXPc4tP8DDxgujM75CUTdvOfu2y2En9EjkJOKxMAzs3CcDH_rAQcuc8OpBj0LkznytDUky5WrwEreW7QrLPJ3R6lEF4F1UOsyJLcxuwy1K_Fc8xOAEkQLy7V4mOtLzkKQyNLwKj8FMw28eSxnzcvezakGBniKbh-EvmNd30PdSnEo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/get_order_status?ref=482634b8-115a-4e2b-b658-208206acc161",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"get_order_status"
+					],
+					"query": [
+						{
+							"key": "ref",
+							"value": "482634b8-115a-4e2b-b658-208206acc161"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Views Count API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://super-servers.com/aelanat/api/views",
+					"protocol": "https",
+					"host": [
+						"super-servers",
+						"com"
+					],
+					"path": [
+						"aelanat",
+						"api",
+						"views"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
